@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanban Board</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/index.js" type="module"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="board" id="board">
+
+      <div class="board__column">
+        <h2 class="board__column-title">
+          ToDo
+        </h2>
+        <div class="board__column-tasks">
+
+          <div class="taskManager" hidden>
+            <input class="taskManager__nameInp" type="text">
+            <textarea class="taskManager__descInp"></textarea>
+            <div class="taskManager__controls">
+              <button class="task__saveBtn">Ok</button>
+              <button class="taskManager__cancelBtn">Cancel</button>
+            </div>
+          </div>
+
+          <button class="board__openTaskManagerBtn">
+            Add new task
+          </button>
+        </div>
+      </div>
+
+      <div class="board__column">
+        <h2 class="board__column-title">
+          Doing
+        </h2>
+        <div class="board__column-tasks">
+
+          <div class="taskManager" hidden>
+            <input class="taskManager__nameInp" type="text">
+            <textarea class="taskManager__descInp"></textarea>
+            <div class="taskManager__controls">
+              <button class="task__saveBtn">Ok</button>
+              <button class="taskManager__cancelBtn">Cancel</button>
+            </div>
+          </div>
+
+          <button class="board__openTaskManagerBtn">
+            Add new task
+          </button>
+        </div>
+      </div>
+
+      <div class="board__column">
+        <h2 class="board__column-title">
+          Done
+        </h2>
+        <div class="board__column-tasks">
+
+          <div class="taskManager" hidden>
+            <input class="taskManager__nameInp" type="text">
+            <textarea class="taskManager__descInp"></textarea>
+            <div class="taskManager__controls">
+              <button class="task__saveBtn">Ok</button>
+              <button class="taskManager__cancelBtn">Cancel</button>
+            </div>
+          </div>
+
+          <button class="board__openTaskManagerBtn">
+            Add new task
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
